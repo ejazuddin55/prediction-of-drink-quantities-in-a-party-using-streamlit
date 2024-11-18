@@ -1,3 +1,5 @@
+# Prediction of quantities in a party using streamlit
+
 This Streamlit app serves as a tool to predict optimal drink quantities for events, leveraging a machine learning model. Here's an overview of its structure and functionality:
 
 Key Features:
