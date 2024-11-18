@@ -14,21 +14,13 @@ Event Type: Weekend or not, style of the event, type of event (wedding or other)
 Backend Processing:
 
 # Scaling:
-Uses scaler.pkl to standardize inputs before feeding them into the model.
-Prediction: A pre-trained model (trained_model.pkl) predicts drink quantities based on the input features.
+Uses scaler to standardize inputs before feeding them into the model.
+Prediction: A pre-trained model (trained_model) predicts drink quantities based on the input features.
 One-Hot Encoding: Encodes categorical variables like style_of_event and type_of_event for model compatibility.
-# Output:
 
-Predicted quantities of various drinks, displayed as a DataFrame.
-Option to download predictions in CSV format for further analysis or record-keeping.
-User Experience:
 
 # Responsive UI: 
 Uses a form for user input and a spinner for processing, enhancing usability.
-Data Download: Provides a button to download predictions as a CSV file.
-# Improvements to Consider:
+# Data Download: 
+Provides a button to download predictions as a CSV file.
 
-Validation: Add validation to ensure consistent logic (e.g., min_age ≤ max_age).
-Dynamic Input Handling: Make event-specific fields appear dynamically based on type of event.
-Error Handling: Handle scenarios where input data fails to scale or predict due to unseen categories or missing data.
-Enhanced Outputs: Include visuals like bar charts or pie charts for drink distribution.
