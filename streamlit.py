@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import joblib
-import time
+import time,
 
 # Load the model and scaler
 model = joblib.load('trained_model')
